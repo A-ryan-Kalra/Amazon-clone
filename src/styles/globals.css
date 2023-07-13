@@ -1,10 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .groupOrange {
+    @apply hover:text-orange-500 cursor-pointer hover:underline;
+  }
+  .active {
+    @apply text-pink-400;
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+  background-image: linear-gradient(#d8f2f1, white);
 }
 
 @media (prefers-color-scheme: dark) {
