@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .groupOrange {
+    @apply hover:text-orange-500 cursor-pointer hover:underline;
+  }
+  .active {
+    @apply text-pink-400;
+  }
+  .exchange.selected {
+    @apply h-[22vh]  bg-white hover:bg-white;
+  }
+  .noExchange.hide {
+    @apply max-h-60 z-[10];
+  }
+  .showBg {
+    @apply hover:bg-gray-200 cursor-pointer rounded-b-2xl bg-gray-200/60;
+  }
+}
+
+:root {
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+
+  /* background-image: linear-gradient(#badbda, white); */
+}
+
+@media (prefers-color-scheme: dark) {
+}
