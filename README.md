@@ -19,7 +19,7 @@
   <ul>
   <li>Add products to a cart. ✔</li>
   <li>Update product in a cart. ✔</li>
-  <li>Increase/Decreate a quantity of a product in a cart. ✔</li>
+  <li>Increase/Decrease the quantity of a product in a cart. ✔</li>
   <li>Search functionality is also included that allows user to search particular product. ✔</li>
   <li>It will alert once the stock of a product is maxed out and no more available. ✔</li>
   <li>Delete a particular product from the cart. ✔</li>
@@ -73,3 +73,10 @@ In order to generate the above keys, you will have to create an account in Razor
 ```
 
 Open <a href='http://localhost:3000'>http://localhost:3000</a> with your browser to see the result.
+
+<div align="center">
+
+Thank you\
+By Aryan Kalra
+
+</div>
