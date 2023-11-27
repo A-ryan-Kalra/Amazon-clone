@@ -1,5 +1,5 @@
-<h2>Website is live and running at  <a href="https://ebag-git-master-a-ryan-kalra.vercel.app/">ebag</a>
-</h2>
+<h3>Website is live and running at  <a href="https://ebag-git-master-a-ryan-kalra.vercel.app/">ebag</a>
+</h3>
 <h2>Authors</h2>
 <ul>
 <li><a href="https://github.com/A-ryan-Kalra">Aryan Kalra</a></li>
