@@ -1,38 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h2>Website is live and running at  <a href="https://ebag-git-master-a-ryan-kalra.vercel.app/products/2">ebag</a>
+</h2>
+<h2>Authors</h2>
+<ul>
+<li><a href="https://github.com/A-ryan-Kalra">Aryan Kalra</a></li>
+</ul>
+</br>
 
-## Getting Started
+<h1>Features</h1>
 
-First, run the development server:
+<h3>Note</h3>
+<ul>
+<li>Admin Dashboard is accessible to everyone. It's just a dummy product along with categories. </li>
+<li>Feel free to visit.</li>
+</ul>
+</br>
+
+ <h2>Customer Panel</h2>
+  <ul>
+  <li>Add products to a cart. ✔</li>
+  <li>Update product in a cart. ✔</li>
+  <li>Increase/Decreate a quantity of a product in a cart. ✔</li>
+  <li>Search functionality is also included that allows user to search particular product. ✔</li>
+  <li>It will alert once the stock of a product is maxed out and no more available. ✔</li>
+  <li>Delete a particular product from the cart. ✔</li>
+  <li>Delete all product from the cart. ✔</li>
+  <li>Alert if InStock Quantity isn't available. ✔</li>
+  <li>View order details. ✔</li>
+  <li>The cart will be cleared once the product is purchased. ✔</li>
+  </ul>
+</br>
+
+<h1>Razorpay Payment Gateway Integration  💸</h1>
+<li>Users can complete product purchases on our website seamlessly using the functionality provided by the <strong>Razorpay Payment Gateway.</strong>. 🥳🥳</li>
+</br>
+</br>
+
+<h1>Tech</h1>
+<ul>
+<li>Nextjs 13</li>
+<li>Javascript</li>
+<li>Tailwind CSS</li>
+<li>Redux toolkit</li>
+<li>RazorPay for Payment</li>
+</ul>
+
+</br>
+<h2>Enviroment Variables</h2>
+<h3>To run this project, you will need to add the following enviroment variables to your .env file</h3>
+
+<code>RAZORPAY_KEY</code>=Your Razorpay Key
+</br>
+<code>RAZORPAY_SECRET</code>=Your Razorpay Secret Key
+
+In order to generate the above keys, you will have to create an account in Razorpay before proceeding further with payment integration in your project.
+
+</br>
+
+<h2>Installation</h2>
+<h3>Install my project with npm<h3>
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+  npm install
+  npm run dev (for development server)
+  npm run dev
+  # or
+  yarn dev
+  # or
+  pnpm dev
+  npm run build (for Production)
+  npm run preview (To View Production Server )
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Open <a href='http://localhost:3000'>http://localhost:3000</a> with your browser to see the result.
