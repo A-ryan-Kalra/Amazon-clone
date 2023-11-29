@@ -126,7 +126,7 @@ function Nav() {
                     width={40}
                     height={44}
                   />
-                  <p className="text-lg text-white">Shopify</p>
+                  <p className="text-lg text-white">eBag</p>
                 </Link>
               </div>
               <div className="hover:border-[1px] border-[1px] hover:border-white border-transparent mt-1 mb-1">
