@@ -4,7 +4,7 @@ import Footer from "../../../components/Footer";
 import CategorySection from "../../../components/CategorySection";
 function Category({ item }) {
   const [isClient, setClient] = useState(false);
-  // console.log(item);
+
   useEffect(() => {
     setClient(true);
   }, []);
