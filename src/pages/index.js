@@ -14,6 +14,13 @@ export default function Home({
   bag,
   dress,
 }) {
+  if (process.env.NODE_ENV === "production") {
+    // Code that should run in production only
+    console.log("Running in production mode");
+  } else {
+    // Code that should run in development or other environments
+    console.log("Running in development mode");
+  }
   return (
     <div
       className="before:z-[-1] before:inset-0 before:absolute before:bg-gradient-to-b from-[#badbda] to-white
